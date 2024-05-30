@@ -1,0 +1,19 @@
+
+#formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#mensaje{
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid;
+}
+
+#mensaje.correcto{
+    color: green;
+}
+#mensaje.error{
+    color: red;
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Ejercicio 6</title>
+</head>
+<body>
+    
+    <form class="formulario" id="formulario">
+        <h1>Formulario de Registro</h1>
+        <div class="label">Nombre:</div>
+        <input type="text" class="input" id="nombre" required maxlength="50">
+
+        <div class="label">Apellido:</div>
+        <input type="text" class="input" id="apellido" required maxlength="50">
+
+        <div class="label">Edad:</div>
+        <input type="number" class="input" id="edad" required min="18">
+
+        <div class="label">Altura:</div>
+        <input type="number" class="input" id="altura" required min="0" max="230">
+
+        <div class="label">Correo Electronico:</div>
+        <input type="email" class="input" id="correo" required><br>
+
+        <button id="buttonEnviar">Enviar</button><br>
+
+    </form>
+
+    <p id="mensaje"></p>
+    <script src="scripts.js"></script>
+</body>
+</html>
